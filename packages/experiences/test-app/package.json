@@ -1,0 +1,12 @@
+{
+  "name": "@msteams/test-app",
+  "version": "1.0.0",
+  "main": "n/a",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {
+    "webpack": "^3.11.0",
+    "@msteams/queries":"1.0.0"
+  }
+}

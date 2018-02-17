@@ -1,0 +1,10 @@
+{
+  "name": "@msteams/queries",
+  "version": "1.0.0",
+  "main": "n/a",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {
+  }
+}

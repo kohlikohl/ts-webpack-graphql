@@ -20,7 +20,7 @@ module.exports = env => ({
           {
             loader: "awesome-typescript-loader",
             options: {
-              configFileName: path.join(process.cwd(), "tsconfig.common.json"),
+              configFileName: path.join(process.cwd(), "tsconfig.json"),
               useCache: false
             }
           }

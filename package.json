@@ -1,9 +1,13 @@
 {
-  "name": "ts-webpack-graphql",
+  "name": "root",
   "version": "1.0.0",
   "main": "n/a",
   "license": "UNLICENSED",
   "private": true,
+  "workspaces": [
+    "packages/experiences/*",
+    "packages/data/*"
+  ],
   "devDependencies": {},
   "dependencies": {
     "@types/graphql": "^0.12.4",
