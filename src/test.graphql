@@ -1,0 +1,30 @@
+query me {
+    me
+        @auth(policies: ["CHAT_AGG"])
+        @rest(type: "me", endpoint: "CHAT_AGG", path: "/teams/users/me") 
+        {
+        teams {
+            id
+            displayName
+            isFavorite
+            isCollapsed
+            channels {
+                id
+                displayName
+                isGeneral
+                isFavorite
+                isFollowed
+                isMember
+            }
+        }
+        users {
+            displayName
+            givenName
+            isEnabled
+            mri
+            objectId
+            type
+            userPrincipalName
+            }
+    }
+  }

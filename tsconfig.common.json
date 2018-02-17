@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noResolve": false,
+    "removeComments": false,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["es6", "esnext.asynciterable", "dom.iterable"]
+  },
+  "include": [
+    "./index.d.ts"
+  ]
+}
